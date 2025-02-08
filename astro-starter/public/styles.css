@@ -1,0 +1,28 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.gallery img {
+    width: 300px; /* or whatever size you prefer */
+    height: auto;
+    margin: 10px;
+    border: 3px solid #fff;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.3);
+    cursor: pointer;
+    transition: transform .2s;
+}
+
+.gallery img:hover {
+    transform: scale(1.05);
+}
